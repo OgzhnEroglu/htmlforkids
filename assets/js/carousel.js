@@ -1,11 +1,11 @@
 
-$(document).ready(function() {
+$(document).ready(function () {
     var owl = $('.our-services-section .owl-carousel');
     owl.owlCarousel({
         margin: 30,
         nav: true,
         loop: true,
-        dots:true,
+        dots: true,
         autoplay: true,
         autoplayTimeout: 4500,
         responsive: {
@@ -22,13 +22,13 @@ $(document).ready(function() {
     })
 })
 
-$(document).ready(function() {
+$(document).ready(function () {
     var owl = $('.partners-section .owl-carousel');
     owl.owlCarousel({
         margin: 30,
         nav: true,
         loop: true,
-        dots:true,
+        dots: true,
         autoplay: true,
         autoplayTimeout: 4500,
         responsive: {
